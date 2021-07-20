@@ -1,0 +1,99 @@
+/**
+ * @url https://codepen.io/hollowes/pen/JOvLXE
+ */
+
+.mdl-paging {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 56px;
+  font-size: 14px;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  > * {
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+  }
+
+  .mdl-menu {
+    min-width: 64px;
+  }
+
+  &__disabled {
+    color: $color-smooth-gray;
+    cursor: default;
+  }
+}
+
+.mdl-list {
+  + {
+    .mdl-paging {
+      margin: 0;
+    }
+  }
+}
+
+.mdl-paging__per-page {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  + {
+    .mdl-paging__count {
+      margin-left: 24px;
+
+      .summary {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  > .select2 {
+    width: 70px !important;
+  }
+}
+
+.mdl-paging__per-page-label {
+  width: 145px;
+  margin-right: 15px;
+}
+
+.mdl-paging__per-page-value {
+  position: absolute;
+  right: 36px;
+  top: 6px;
+}
+
+.mdl-paging__prev {
+  &:last-child {
+    margin-right: 44px;
+  }
+
+  + {
+    .mdl-paging__next {
+      margin-left: 12px;
+    }
+  }
+}
+
+.mdl-paging__count {
+  + {
+    .mdl-paging__prev {
+      margin-left: 24px;
+    }
+
+    .mdl-paging__next {
+      margin-left: 68px;
+      margin-right: 14px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.light-theme {
+  .panel,
+  .kv-panel-before,
+  .panel-footer {
+    border-color: $light-background-color-header;
+    background-color: $light-background-color;
+  }
+
+  .mdl-data-table {
+    background-color: $light-background-color;
+    color: $light-data-table-color;
+
+    tbody {
+      th, tr:hover {
+        color: $light-data-table-header-color
+      }
+
+      tr:hover {
+        background-color: $light-data-table-hover-color;
+      }
+    }
+  }
+}

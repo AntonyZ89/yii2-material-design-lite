@@ -1,0 +1,24 @@
+.light-theme {
+  .mdl-list {
+    .mdl-list__item {
+      color: black;
+
+      &-icon, &-icon.material-icons {
+        color: $light-list-icon-color;
+      }
+    }
+
+    .list__item--border-top {
+      border-top: $light-list-item-border;
+    }
+  }
+
+  .list-title {
+    font-size: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 16px;
+    margin-bottom: 20px;
+    color: $light-list-main-text-text-color;
+  }
+}

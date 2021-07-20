@@ -1,0 +1,9 @@
+.light-theme {
+    .input-group {
+        &-addon {
+            color: $light-input-color;
+            background-color: $light-input-group-addon-bg;
+            border: 1px solid $light-input-group-addon-border-color;
+        }
+    }
+}

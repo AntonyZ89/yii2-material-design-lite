@@ -1,0 +1,14 @@
+.light-theme {
+  .mdl-textfield {
+    .mdl-textfield__input {
+      border-bottom: 1px solid $light-input-text-bottom-border-color;
+    }
+  }
+
+  fieldset[disabled] .mdl-textfield .mdl-textfield__input,
+  .mdl-textfield.is-disabled .mdl-textfield__input {
+    background-color: transparent;
+    border-bottom: 1px dotted $light-input-text-disabled-text-color;
+    color: $light-input-text-disabled-text-color;
+  }
+}

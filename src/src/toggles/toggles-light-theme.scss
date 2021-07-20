@@ -1,0 +1,11 @@
+.light-theme {
+  .mdl-checkbox:hover:not(.is-checked) {
+    .mdl-checkbox__box-outline {
+      border-color: unquote("rgba(#{$color-black}, 1)");
+    }
+  }
+
+  .mdl-checkbox__box-outline {
+    border-color: unquote("rgba(#{$color-black}, 0.6)");
+  }
+}

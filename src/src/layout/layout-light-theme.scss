@@ -1,0 +1,51 @@
+.light-theme {
+  color: $light-text-color-primary;
+
+  .mdl-layout {
+    background: $light-layout-drawer-bg-color;
+
+    &__header {
+      background-color: $light-layout-header-bg-color;
+      color: $light-layout-header-text-color;
+
+      &-row {
+        color: $light-dropdown-menu-header-font-color;
+
+        .avatar-dropdown {
+          &:hover {
+            background: $light-layout-header-icon-hover-color;
+          }
+
+          & > span {
+            color: $light-layout-header-name-color;
+          }
+        }
+      }
+    }
+
+    &__drawer {
+      background-color: $light-layout-drawer-bg-color;
+
+      header {
+        color: $light-layout-drawer-header-color;
+        background: $light-layout-drawer-header-bg-color;
+      }
+
+      .mdl-navigation {
+        &__link {
+          .material-icons {
+            color: $light-layout-drawer-navigation-link-icon-color;
+          }
+
+          &--current, &:hover {
+            color: unquote("rgba(#{$color-black}, 0.87)");
+
+            .material-icons {
+              color: unquote("rgba(#{$color-black}, 0.87)");
+            }
+          }
+        }
+      }
+    }
+  }
+}

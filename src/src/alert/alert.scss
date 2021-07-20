@@ -1,0 +1,41 @@
+.alert {
+  min-width: 150px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  @include shadow-2dp();
+
+  &:hover {
+    @include shadow-4dp();
+  }
+
+  &-success {
+    background-color: lighten(#5cb85c, 15%);
+    border-color: lighten(#5cb85c, 10%);
+    color: darken(#5cb85c, 15%);
+  }
+
+  &-warning {
+    background-color: lighten(#E2A41F, 15%);
+    border-color: lighten(#E2A41F, 10%);
+    color: darken(#E2A41F, 15%);
+  }
+
+  &-danger {
+    background-color: lighten(#d43f3a, 15%);
+    border-color: lighten(#d43f3a, 10%);
+    color: darken(#d43f3a, 15%);
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  i {
+    padding-right: 5px;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+}

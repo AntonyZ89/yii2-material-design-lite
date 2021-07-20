@@ -1,0 +1,227 @@
+$light-background-color: unquote("rgb(#{$color-white})");
+$light-background-color-header: $color-smooth-gray;
+
+/* ==========  Typography  ========== */
+$light-text-color-primary: unquote("rgba(#{$color-black}, 0.87)") !default;
+$light-text-color-secondary: unquote("rgba(#{$color-white}, 0.87)") !default;
+
+/* ==========  Components  ========== */
+
+//datepicker
+$light-datepicker-color: $light-background-color;
+
+/* ==========  Standard Buttons  ========== */
+
+// Default button colors.
+$light-button-secondary-color: unquote("rgb(#{$color-black})");
+// Colored button colors.
+$light-button-primary-color-alt: unquote("rgb(#{$color-secondary})");
+// Ripple color for colored raised buttons.
+// Disabled button colors.
+$light-button-primary-color-disabled: #6b6b6b;
+//background-color:
+$light-button-secondary-color-disabled: unquote("rgba(#{$color-black}, 0.3)");
+//color:
+// FAB colors and sizes.
+$light-button-fab-color-alt: unquote("rgb(#{$color-secondary})");
+
+// Icon button colors and sizes.
+
+/* ==========  Icon Toggles  ========== */
+
+/* ==========  Radio Buttons  ========== */
+
+/* ==========  Ripple effect  ========== */
+
+/* ==========  Layout  ========== */
+
+// Drawer
+$light-layout-drawer-bg-color: #dfdfdf;
+$light-layout-nav-color: #dfdfdf;
+$light-layout-drawer-navigation-link-active-background: unquote("rgba(#{$color-black}, 0.25)");
+$light-layout-drawer-navigation-link-active-color: unquote("rgb(#{$color-primary})");
+$light-layout-nav-color: unquote("rgba(#{$color-black}, 0.25)");
+$light-layout-drawer-navigation-link-icon-color: unquote("rgba(#{$color-black}, 0.56)");
+$light-layout-drawer-header-color: unquote("rgb(#{$color-black})");
+$light-layout-drawer-header-bg-color: unquote("rgba(#{$color-white},0.85)");
+
+// Header
+$light-layout-header-text-color: unquote("rgb(#{$color-primary})");
+$light-layout-header-bg-color: $light-background-color-header;
+$light-layout-header-name-color: unquote("rgba(#{$color-white}, 0.5)");
+$light-layout-header-icon-hover-color: unquote("rgba(#{$color-black}, 0.3)");
+
+// Tabs
+
+/* ==========  Content Tabs  ========== */
+
+/* ==========  Checkboxes  ========== */
+$light-checkbox-off-color: unquote("rgb(#{$color-black})");
+$light-checkbox-color: unquote("rgb(#{$color-secondary})");
+
+/* ==========  Switches  ========== */
+
+/* ==========  Spinner  ========== */
+
+/* ==========  Text fields  ========== */
+$light-todo-input-text-label-color: unquote("rgba(#{$color-white}, 0.2)");
+
+$light-input-text-highlight-color: unquote("rgb(#{$color-primary})");
+$light-input-text-bottom-border-color: unquote("rgba(#{$color-black}, 0.2)");
+$light-input-text-disabled-text-color: unquote("rgba(#{$color-black}, 0.6)");
+
+/* INPUT GROUP ADDON */
+
+$light-input-color: $color-gray;
+$light-input-group-addon-bg: unquote("rgb(#{$color-white})");
+$light-input-group-addon-border-color: unquote("rgb(#{$color-white})");
+
+//placeholder color
+$light-todo-input-text-highlight-color: unquote("rgba(#{$color-white}, 0.7)");
+
+//bottom line color
+
+/* ==========  Card  ========== */
+$light-card-background-color: $light-background-color;
+$light-card-text-color: unquote("rgba(#{$color-white}, 0.8)");
+$light-card-supporting-text-text-color: unquote("rgba(#{$color-black}, 1)");
+$light-card-subtitle-color: unquote("rgba(#{$color-black}, 0.5)");
+$light-card-border-color: unquote("rgba(#{$color-black},0.05)");
+
+$light-card-title-background-color: $light-background-color;
+$light-card-actions-background-color: unquote("rgba(#{$color-black},0.05)");
+$light-card-text-color: unquote("rgba(#{$color-black},0.05)");
+$light-card-link-color: unquote("rgb(#{$color-primary})");
+$light-card-href-color: unquote("rgb(#{$color-primary})");
+
+$light-card-title-img-color: unquote("rgb(#{$color-white})");
+$light-card-deg-color: unquote("rgba(#{$color-white}, 0.9)");
+
+/* ==========  Sliders ========== */
+
+$light-range-bg-color: unquote("rgba(#{$color-white}, 0.45)");
+$light-range-color: unquote("rgb(#{$color-secondary})");
+
+/* ========== Progress ========== */
+$light-progress-main-color: unquote("rgb(#{$color-secondary})");
+$light-progress-secondary-color: unquote("rgba(#{$color-white}, 0.4)");
+
+/* ==========  List ========== */
+$light-list-main-text-text-color: unquote("rgb(#{$color-black})");
+$light-list-supporting-text-text-color: unquote("rgba(#{$color-black}, 0.54)");
+$light-list-icon-color: unquote("rgba(#{$color-black}, 0.8)");
+$light-list-icon-hover-color: unquote("rgb(#{$color-primary})");
+
+$light-list-border-color: unquote("rgba(#{$color-black},0.1)");
+$light-list-item-border: 1px solid $light-list-border-color;
+
+/* ==========  Item ========== */
+
+// Default Item Colors
+$light-default-item-focus-bg-color: unquote("rgba(#{$color-black}, 0.15)");
+$light-default-item-active-bg-color: unquote("rgba(#{$color-black}, 0.15)");
+$light-default-item-hover-bg-color: unquote("rgba(#{$color-black}, 0.2)");
+
+// Disabled Button Colors
+
+/* ==========  Dropdown menu ========== */
+$light-default-dropdown-bg-color: $light-background-color;
+
+$light-dropdown-menu-header-font-color: unquote("rgba(#{$color-white}, 0.8)");
+$light-messages-dropdown-label-text-color: unquote("rgba(#{$color-black}, 0.5)");
+
+/* ==========  Tooltips  ========== */
+$light-tooltip-background-color: #353535;
+
+/* ==========  Footer  ========== */
+
+/* TEXTFIELD */
+
+/* SWITCH */
+$light-switch-off-thumb-color: unquote("rgb(#{$palette-grey-500})");
+
+/* SPINNER */
+
+
+// Amount of circle the arc takes up.
+// Time it takes to expand and contract arc.
+// How much the start location of the arc should rotate each time.
+
+/* RADIO */
+$light-radio-off-color: unquote("rgba(#{$color-white}, 0.8)");
+$light-radio-color: unquote("rgba(#{$color-primary}, 0.8)");
+
+/* MENU */
+
+/* LIST */
+
+/* LAYOUT */
+
+/* ICON */
+
+/* ICON TOGGLE */
+
+/* FOOTER */
+/*mega-footer*/
+$light-footer-bg-color: $light-layout-header-bg-color !default;
+$light-footer-color: unquote("rgb(#{$color-white})") !default;
+/*mini-footer*/
+
+/* CHECKBOX */
+
+/* CARD */
+/* Card dimensions */
+
+/* Cover image */
+
+/* BUTTON */
+
+/* ANIMATION */
+
+/* PROGRESS */
+
+/* BADGE */
+$badge-background: unquote("rgb(#{$color-primary})");
+$badge-color: unquote("rgb(#{$color-white})");
+
+/* SHADOWS */
+
+/* GRID */
+
+/* DATA TABLE */
+
+$light-data-table-color: unquote("rgb(#{$color-black})");
+$light-data-table-header-color: unquote("rgb(#{$color-black})");
+$light-data-table-divider-color: unquote("rgba(#{$color-black}, 0.05)");
+$light-data-table-hover-color: unquote("rgba(#{$color-black}, 0.1)");
+//$light-data-table-selection-color: $light-background-color;
+
+/* TOOLTIP */
+
+//-------------------------------------------------------
+
+/* WIDGETS & COMPONENTS */
+
+/* Trending */
+$light-trending-arrow-up-color: unquote("rgb(#{$color-primary})");
+$light-trending-arrow-down-color: unquote("rgb(#{$color-secondary})");
+
+/* label */
+
+/* charts */
+$light-line-chart-axis-label-color: unquote("rgba(#{$color-black},0.5)");
+$light-line-chart-guideline-color: unquote("rgba(#{$color-black},0.5)");
+$light-line-chart-axis-line-color: unquote("rgba(#{$color-black},0.5)");
+
+/* employer form */
+$light-employer-form-color-brighter: unquote("rgb(#{$color-black})");
+$light-employer-form-color-darker: rgba(255, 255, 255, 0.6);
+
+$light-weather-shadow-color: unquote("rgba(#{$color-black}, 0.4)");
+$light-weather-shadow-4px: 4px 4px 4px $light-weather-shadow-color;
+
+/* row */
+
+/* scroll */
+$light-scrollbar-thumb: #999;
+$light-scrollbar-track: #666;

@@ -1,0 +1,7 @@
+.light-theme {
+  .legend {
+    .legend__item {
+      color: unquote("rgb(#{$color-black})")
+    }
+  }
+}

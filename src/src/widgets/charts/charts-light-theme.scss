@@ -1,0 +1,7 @@
+.light-theme {
+  .nvd3 {
+    text {
+      fill: unquote("rgb(#{$color-black})") !important;
+    }
+  }
+}

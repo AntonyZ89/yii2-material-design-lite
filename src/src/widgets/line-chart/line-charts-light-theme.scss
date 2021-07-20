@@ -1,0 +1,23 @@
+.light-theme {
+  .line-chart__container,
+  .line-chart-1__container,
+  .line-chart-2__container {
+    svg {
+      .y-axis-label, .x-axis-label {
+        fill: $light-line-chart-axis-label-color;
+      }
+
+      .nv-lineChart {
+        .nv-guideline {
+          stroke: $light-line-chart-guideline-color;
+        }
+      }
+
+      .nv-axis {
+        line {
+          stroke: $light-line-chart-axis-line-color;
+        }
+      }
+    }
+  }
+}

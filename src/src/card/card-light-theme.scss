@@ -1,0 +1,18 @@
+.light-theme {
+  .mdl-card {
+    background: $light-card-background-color;
+
+    &__title {
+      background-color: $light-card-title-background-color;
+      color: $light-card-text-color
+    }
+
+    &__subtitle-text {
+      color: $light-card-subtitle-color;
+    }
+
+    &__supporting-text {
+      color: $light-card-supporting-text-text-color;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.btn-group,
+.btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle; // match .btn alignment given font-size hack above
+    > .btn {
+        position: relative;
+        float: left;
+        // Bring the "active" button to the front
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            z-index: 2;
+        }
+    }
+}
+
+// Optional: Group multiple button groups together for a toolbar
+.btn-toolbar {
+    margin-left: -5px; // Offset the first child's margin
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+    }
+
+    .btn,
+    .btn-group,
+    .input-group {
+        float: left;
+    }
+    > .btn,
+    > .btn-group,
+    > .input-group {
+        margin-left: 5px;
+    }
+}
