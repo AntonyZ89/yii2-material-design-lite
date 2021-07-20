@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class MaterialAsset extends AssetBundle
 {
-    public $sourcePath = '@common/assets/material/src';
+    public $sourcePath = '@antonyz89/mdl/assets';
 
     public $css = [
         'application.scss',
