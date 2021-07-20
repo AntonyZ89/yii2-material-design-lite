@@ -52,6 +52,27 @@ Before use:
 ];
 ```
 
+3. add `MaterialAsset::class` to your `AppAsset::class`
+
+```php
+use antonyz89\mdl\MaterialAsset;
+use yii\web\YiiAsset;
+
+class AppAsset extends AssetBundle
+{
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
+
+    public $css = [];
+    public $js = [];
+    public $depends = [
+        // ...
+        YiiAsset::class,
+        MaterialAsset::class
+    ];
+}
+```
+
 # FEATURES
 
 * Material Design via Material Design Lite
