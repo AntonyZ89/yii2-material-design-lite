@@ -78,7 +78,7 @@ class GridView extends GridViewBase
     {pager}
 </div>";
 
-        $this->panel['footer'] = ArrayHelper::getValue($this->panel, 'footer', false) ?? $defaultFooter;
+        $this->panel['footer'] = ArrayHelper::getValue($this->panel, 'footer') ?? $defaultFooter;
 
         if (isset($this->panel['options'])) {
             if (isset($this->panel['options']['class'])) {
