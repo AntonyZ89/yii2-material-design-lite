@@ -10,12 +10,13 @@
     background-color: $light-background-color;
     color: $light-data-table-color;
 
-    tbody {
-      th, tr:hover {
-        color: $light-data-table-header-color
-      }
+    th {
+      color: $light-data-table-header-color;
+    }
 
+    tbody {
       tr:hover {
+        color: $light-data-table-header-color;
         background-color: $light-data-table-hover-color;
       }
     }

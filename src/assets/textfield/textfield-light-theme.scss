@@ -11,4 +11,9 @@
     border-bottom: 1px dotted $light-input-text-disabled-text-color;
     color: $light-input-text-disabled-text-color;
   }
+
+  fieldset[disabled] .mdl-textfield .mdl-textfield__label,
+  .mdl-textfield.is-disabled.is-disabled .mdl-textfield__label {
+    color: $light-input-text-disabled-text-color;
+  }
 }

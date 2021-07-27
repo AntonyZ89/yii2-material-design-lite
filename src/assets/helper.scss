@@ -126,7 +126,7 @@
 
     &:not(.is-focused), &:not(.mdl-textfield--floating-label) {
       .mdl-textfield__label {
-        color: $color-smoke !important;
+        color: $color-smoke;
       }
     }
 

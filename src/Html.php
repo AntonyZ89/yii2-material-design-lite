@@ -43,6 +43,23 @@ class Html extends HtmlBase
     }
 
     /**
+     * @inheritDoc
+     *
+     * @param string $content
+     * @param string|array $options
+     * @return string
+     */
+    public static function submitButton($content = 'Submit', $options = [])
+    {
+        if (is_string($options)) {
+            $options = ['class' => $options];
+        }
+
+        $options['type'] = 'submit';
+        return static::button($content, $options);
+    }
+
+    /**
      * @param array|string $content
      * @param array|string $options
      * @return string
