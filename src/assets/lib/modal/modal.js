@@ -25,6 +25,8 @@ $(function () {
         }
       });
       return false;
+    } else {
+        target.modal('show');
     }
   });
   $(document).on('submit', 'form[data-ajax]', function (event) {
